@@ -1,3 +1,4 @@
+/* #region quick settings */
 body {
     font-family: "Poppins", sans-serif;
 }
@@ -37,6 +38,8 @@ a {
     padding: 0 20px;
     margin: 0 auto;
 }
+
+/* #endregion quick settings */
 
 /* #region header */
 
@@ -622,6 +625,31 @@ a {
     padding-bottom: 40px;
 }
 
+.prices-header-1 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+
+.prices-descr-1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #22343d;
+}
+
+.prices-descr-2 {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 50px;
+    margin-top: 16px;
+}
+
 .prices-list {
     display: flex;
     gap: 72px;
@@ -846,11 +874,6 @@ a {
 /* #endregion promotion */
 
 /* #region footer */
-
-.footer {}
-
-.container {}
-
 .footer-list {
     display: flex;
     justify-content: space-between;
@@ -900,8 +923,6 @@ a {
     padding-bottom: 8px;
 }
 
-.footer-resource-list {}
-
 .footer-text {
     font-weight: 400;
     font-size: 16px;
@@ -910,12 +931,6 @@ a {
     line-height: 2.1875;
     color: #22343d;
 }
-
-.footer-resource-text {}
-
-.footer-stuff-list {}
-
-.footer-stuff-list-item {}
 
 .footer-input {
     display: block;
@@ -951,3 +966,159 @@ a {
 }
 
 /* #endregion footer */
+
+/* #region enterprise */
+.enterprise {
+    background-image: linear-gradient(to bottom, rgba(246, 246, 246, 1), rgba(246, 246, 246, 0));
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 150px;
+    margin-bottom: 296px;
+}
+
+.enterprise-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.enterprise-header {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+}
+
+.enterprise-descr {
+    font-weight: 400;
+    font-size: 18px;
+    color: #22343d;
+    margin-bottom: 32px;
+    margin-top: 8px;
+}
+
+.enterprise-button {
+    border-radius: 8px;
+    width: 224px;
+    height: 44px;
+    background: #02897a;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* #endregion enterprise */
+
+/* #region effects */
+
+.effects-header {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+    text-align: center;
+}
+
+.effects-section {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 6px;
+    margin-top: 24px;
+    align-items: center;
+}
+
+.effects-list-group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.effects-list-logo {
+    border-radius: 100px;
+    padding: 24px;
+    width: 50px;
+    height: 50px;
+    background: #f4f5f7;
+}
+
+.effects-list-title {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #22343d;
+}
+
+.effects-list-descr {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
+
+/* #endregion effects */
+
+/* #region questions */
+.questions {}
+
+.questions .container {
+    padding-bottom: 150px;
+    width: 920px;
+}
+
+.questions-header {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+    text-align: center;
+}
+
+.questions-descr {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #22343d;
+    margin-top: 8px;
+    margin-bottom: 34px;
+}
+
+.questions-list {}
+
+.questions-list-item {
+    border-bottom: 1px solid #E7E7E7;
+    padding: 16px 0;
+}
+
+.questions-list-logo {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #02897a;
+}
+
+.questions-list-header {
+    font-weight: 500;
+    font-size: 18px;
+    color: #22343d;
+}
+
+.questions-list-group {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+}
+
+.questions-list-descr {
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343d;
+    margin-top: 16px;
+}
+
+/* #endregion questions */
+
+/* #region  */
+/* #region  */
+/* #region  */
